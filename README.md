@@ -9,7 +9,17 @@ A simple yet stylish To-Do App built with React, offering seamless task manageme
 - Responsive and modern design with vibrant colors and easy-to-use UI.
 
 ## Project Structure
-
+To-Do App/
+├── src/
+│   ├── components/
+│   │   ├── Todo.js          # Component for rendering individual tasks
+│   │   ├── TodoWrapper.js   # Component managing task list and interactions
+│   ├── App.js               # Root React component
+│   ├── App.css              # Styling for the app
+├── public/
+│   ├── index.html           # HTML file for the React app
+├── README.md                # Project documentation
+├── package.json 
 
 ## Technologies Used
 - **React**: Frontend JavaScript library for building UI components.
